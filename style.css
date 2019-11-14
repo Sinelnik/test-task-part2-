@@ -1,0 +1,69 @@
+body {
+    background-image: url("http://telekomza.ru/wp-content/uploads/2014/09/red-curtains-61.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainMovie {
+    display: none;
+}
+    
+.movies {
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+}
+
+.movieByName > img {
+
+    width: 200px;
+    height: 300px;
+}
+  
+.movies > img {
+    width: 150px;
+    height: 200px;
+}
+    
+.dropdownAllMovies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dropdownMoviesByGenre{
+    display: flex;   
+}
+  
+.none {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.clean::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block; 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzPhniOafXzkr7qIY-ytCFW_0TmpkY9rBis7rcEZZcROOA0m9");
+    background-size: cover;
+}
+.del::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block; 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDzPhniOafXzkr7qIY-ytCFW_0TmpkY9rBis7rcEZZcROOA0m9");
+    background-size: cover;
+}
+span {
+    color: azure;
+}
